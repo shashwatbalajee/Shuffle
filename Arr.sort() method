@@ -1,0 +1,17 @@
+function shuffleArray(arr){
+//   var  newpos ;
+//   var temp;
+//     for(let i=arr.length-1;i>0;i--){
+//       newpos = Math.random() * (i+1)
+//       temp = arr[i];
+//       arr[i] = arr[newpos];
+//       arr[newpos] = temp;
+     return arr.sort(()=>Math.random()*1);
+//     }
+//   return arr;
+
+  }
+
+let arry=[2,1,5,3,11,7];
+let newArray = shuffleArray(arry);
+document.write(newArray)
